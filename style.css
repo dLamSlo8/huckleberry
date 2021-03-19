@@ -10,3 +10,71 @@ body {
 }
 
 /* Add styles here! */
+:root {
+    --color-primary: hsl(160deg, 100%, 30%);
+    --color-secondary-dark: hsl(45deg, 100%, 40%);
+    --color-secondary-light: hsl(45deg, 100%, 50%);
+    --color-very-dark: hsl(0, 0%, 10%);
+    --color-dark: hsl(0deg, 0%, 30%);
+    --color-medium: hsl(0deg, 0%, 40%);
+    --color-light: hsl(0deg, 0%, 60%);
+    --color-white: hsl(0deg, 0%, 100%);
+    --color-black: hsl(0deg, 0%, 0%);
+}
+
+strong {
+    color: var(--color-primary);
+}
+
+header {
+    padding-bottom: 2rem;
+    border-bottom: 10px solid var(--color-medium);
+}
+
+main {
+    padding: 4rem 0;
+    background-color: var(--color-light);
+}
+
+.max-width-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.intro-chunk {
+    margin-top: 8rem;
+    max-width: 450px;
+    padding: 0 2rem;
+}
+
+.title {
+    margin-bottom: 3rem;
+}
+
+.intro-chunk > p {
+    font-size: 1.5rem;
+}
+
+.indented-heading {
+    margin-top: 0;
+    margin-left: -3rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem 3rem;
+    width: fit-content;
+    background-color: var(--color-secondary-light);
+    border-bottom: 10px solid var(--color-secondary-dark);
+}
+
+.card {
+    max-width: 800px;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: white;
+    border-bottom: 10px solid var(--color-medium);
+}
+
+.card > p {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+
